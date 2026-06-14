@@ -1,0 +1,62 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+out/
+
+# =========================
+# Java / Spring / Spring Boot
+# =========================
+target/
+build/
+.gradle/
+.mvn/wrapper/maven-wrapper.jar
+
+# compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# logs
+*.log
+logs/
+
+# =========================
+# Spring Boot config / secrets
+# =========================
+application-local.yml
+application-local.properties
+application-dev.yml
+application-dev.properties
+.env
+
+# =========================
+# DB / SQL study files
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# PDF / lecture materials
+# =========================
+*.pdf
+강의자료/
+lecture-materials/
+materials/
+pdf/
+
+# =========================
+# OS / editor temp files
+# =========================
+*.swp
+*.swo
+*~
