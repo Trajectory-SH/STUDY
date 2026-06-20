@@ -11,7 +11,6 @@ public class TestClass {
         Data data1;
         BigData bigData1;
         String string1 ;
-
         TestClass test = new TestClass();
         test.data = new Data();
         test.data.data = "helloWorld...";
